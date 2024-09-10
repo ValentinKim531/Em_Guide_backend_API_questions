@@ -46,7 +46,7 @@ questions_data = {
             }
         }
     ],
-    "daily_survey_questions": [
+    "daily_questions": [
         {
             "index": 1,
             "question": {
