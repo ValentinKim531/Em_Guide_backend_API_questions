@@ -13,5 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Копируем всё содержимое локальной директории в контейнер
 COPY . .
 
+ENV PORT=8082
+
 # Указываем команду для запуска сервера при запуске контейнера
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8082"]
